@@ -3,6 +3,8 @@ import { Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Agenda from './components/Agenda';
 import VotingSession from './components/VotingSession';
+import ReceiveMemberVotes from './components/ReceiveMemberVotes';
+
 function App() {
   return (
     <Container className="mt-5">
@@ -10,6 +12,8 @@ function App() {
       <Agenda />
       <hr />
       <VotingSession />
+      <hr />
+      <ReceiveMemberVotes />
     </Container>
   );
 }
